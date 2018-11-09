@@ -79,6 +79,7 @@ let colors = {
   'yellow-light': '#fff382',
   'yellow-lighter': '#fff9c2',
   'yellow-lightest': '#fcfbeb',
+  'yellow-brand': '#9D7245',
 
   'green-darkest': '#0f2f21',
   'green-darker': '#1a4731',
@@ -217,6 +218,7 @@ module.exports = {
       'Bitstream Vera Serif',
       'Liberation Serif',
       'Georgia',
+      'Cinzel Decorative',
       'serif',
     ],
     'mono': [
@@ -532,6 +534,12 @@ module.exports = {
     '32': '8rem',
     '48': '12rem',
     '64': '16rem',
+    '112': '28rem',
+    '128': '32rem',
+    '160': '40rem',
+    '164': '41rem',
+    '168': '42rem',
+    '192': '48rem',
     'full': '100%',
     'screen': '100vh',
   },

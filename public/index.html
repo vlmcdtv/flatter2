@@ -1,18 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>playground</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but playground doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div class="bg-green">Hello World</div>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+          integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900" rel="stylesheet">
+
+    <title>Fix & Flatter (2)</title>
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but playground doesn't work properly without JavaScript enabled. Please enable it to
+        continue.</strong>
+</noscript>
+
+
+<header>
+    <div class="heroimg">
+        <div class="flex w-1/2 px-12 py-2">
+            <div class="header">Fix</div>
+            <div class="header text-yellow-brand">&</div>
+            <div class="header">Flatter</div>
+        </div>
+    </div>
+</header>
+<!--END OF HERO-->
+<div class="flex">
+    <div class="w-1/2 p-4 mb-6">
+        <ul class="md:flex list-reset navbar">
+            <li class="px-2 mr-6">Services</li>
+            <li class="px-2 mr-6">Areas We Service</li>
+            <li class="px-2 mr-6">Contact Us</li>
+        </ul>
+    </div>
+    <div class="flex w-1/2 justify-end p-2">
+        <button class="quote">Request a Quote</button>
+    </div>
+</div>
+
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
 </html>
