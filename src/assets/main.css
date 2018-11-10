@@ -1,29 +1,40 @@
 @tailwind preflight;
 
 .heroimg {
-    background-image: url('http://cdn.home-designing.com/wp-content/uploads/2016/02/modern-art-deco-interior-style.jpg');
-    @apply h-164 w-full;
+    background-image: linear-gradient(to right, rgb(64, 64, 64, .3), rgb(64, 64, 64, .3)), url(bg-image.jpg);
+    background-attachment: fixed;
+    background-position: 50%;
 }
 
 .header {
     font-family: 'Cinzel Decorative';
-    @apply font-bold text-5xl;
+    @apply font-bold
+    text-7xl;
+    text-shadow: 1px 1px #e6e6e6;
 }
 
 .navbar {
     font-family: 'Cinzel Decorative';
-    @apply font-semibold text-lg text-yellow-brand;
+    @apply font-semibold
+    text-lg text-yellow-brand;
 }
 
-.quote {
-    font-family: 'Georgia';
-    @apply border border-solid border-grey-darker rounded-lg text-sm p-2 text-white bg-yellow-brand h-8;
+
+a {
+    text-decoration: none;
 }
 
-.quote:hover {
-    @apply bg-white text-black;
+.bodytext {
+    font-family: mr-eaves-modern, sans-serif;
+    font-style: normal;
+    font-weight: 100;
 }
 
+.btntext {
+    font-family: mr-eaves-modern, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
 
 @tailwind components;
 @tailwind utilities;
