@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
           integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
 
     <title>Fix & Flatter (2)</title>
 </head>
@@ -19,10 +20,8 @@
 
 
 <header>
-
-
     <div class="flex items-center heroimg h-screen bg-cover">
-        <div class="container mx-auto sm:px-0 max-w-sm">
+        <div class="container mx-auto sm:px-0 max-w-sm sticky pin-t">
             <div class="mx-auto text-center header">
                 Fix
                 <span class="text-purple-brand">&</span>
@@ -30,45 +29,106 @@
             </div>
             <div class="mt-4 sm:flex sm:justify-center mx-auto items-center">
                 <a class="sm:mt-0 mx-auto sm:mx-2 max-w-xs rounded-full text-center text-sm font-light btntext tracking-wide block px-8 py-2 border border-purple-brand bg-purple-brand text-white hover:border-purple-brand hover:bg-purple-brand-light hover:text-white"
-                   href="#">Get a Quote</a>
-                <a class="sm:mt-0 mx-auto sm:mx-2 max-w-xs rounded-full text-center text-sm font-light btntext tracking-wide block px-8 py-2 border border-purple-brand bg-white-brand text-purple-brand hover:border-purple-brand hover:bg-purple-brand hover:text-white"
-                   href="#">Learn More</a>
+                   href="#form_anchor">Get a Quote</a>
+                <a class="sm:mt-0 mt-4 mx-auto sm:mx-2 max-w-xs rounded-full text-center text-sm font-light btntext tracking-wide block px-8 py-2 border border-purple-brand bg-white-brand text-purple-brand hover:border-purple-brand hover:bg-purple-brand hover:text-white"
+                   href="#learn_more_anchor">Learn More</a>
             </div>
         </div>
 </header>
 <!--END OF HERO-->
-
 <div class="container mx-auto">
-    <div class="text-center p-6 text-2xl">Decorate, style & remodel to suit your life and your budget</div>
-    <div class="p-2 mb-2 leading-normal bodytext">
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam fuga incidunt iure iusto nemo! Ad animi
-            architecto aspernatur atque autem beatae distinctio eum eveniet ex fuga labore magnam maiores, minima nam
-            optio
-            placeat quia quibusdam quo ratione recusandae repellendus reprehenderit similique soluta suscipit temporibus
-            voluptate voluptates. Beatae, magnam, praesentium. Amet cupiditate dolorum eius expedita ipsam maxime, nam
-            nisi,
-            placeat quas quos sed vel? Adipisci amet commodi cumque cupiditate deleniti deserunt dolorum ea est
-            excepturi
-            expedita, fugiat ipsam ipsum maiores numquam odio quisquam quo quod repudiandae sint sit temporibus totam
-            unde
-            vero. Accusamus asperiores cumque doloremque voluptates! Amet dicta explicabo sequi.
+    <div class="mb-4">
+        <div class="subhead text-center p-6">Decorating, style & remodelling to suit your life and your budget</div>
+        <div class="leading-normal bodytext">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam fuga incidunt iure iusto nemo! Ad
+                animi
+                architecto aspernatur atque autem beatae distinctio eum eveniet ex fuga labore magnam maiores, minima
+                nam
+                optio
+                placeat quia quibusdam quo ratione recusandae repellendus reprehenderit similique soluta suscipit
+                temporibus
+                voluptate voluptates. Beatae, magnam, praesentium. Amet cupiditate dolorum eius expedita ipsam maxime,
+                nam
+                nisi,
+                placeat quas quos sed vel? Adipisci amet commodi cumque cupiditate deleniti deserunt dolorum ea est
+                excepturi
+                expedita, fugiat ipsam ipsum maiores numquam odio quisquam quo quod repudiandae sint sit temporibus
+                totam
+                unde
+                vero. Accusamus asperiores cumque doloremque voluptates! Amet dicta explicabo sequi.
+            </div>
         </div>
     </div>
-</div>
-<!--END OF MAIN-->
-<div class="flex p-6">
-    <div class="w-1/2 m-4 items-center text-center">
-        <h2 class="mb-1">What We Do</h2>
-        <p class="leading-normal bodytext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-        dolorum fuga iusto libero, minima non ut. Culpa dicta minima perspiciatis.</p>
-    </div>
-    <div class="w-1/2 m-4 items-center text-center">
-        <h2 class="mb-1">What We Do</h2>
-        <p class="leading-normal bodytext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-            dolorum fuga iusto libero, minima non ut. Culpa dicta minima perspiciatis.</p>
-    </div>
-</div>
+    <!--END OF MAIN-->
+    <div class="flex px-12" id="learn_more_anchor">
+        <div class="w-1/2 m-6 flex-col justify-center">
+            <p class="subhead mb-1 tracking-normal text-center">Services</p>
+            <div class="flex justify-center">
+                <div class="inline-flex">
+                    <ul class="bodytext">
+                        <li>Redecorating: etc etc etc</li>
+                        <li>Remodelling: etc etc etc</li>
+                        <li>Renovating: etc etc etc</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/2 m-6 flex-col justify-center">
+            <p class="subhead mb-1 tracking-normal text-center">Areas We Serve</p>
+            <div class="flex justify-center">
+                <div class="inline-flex">
+                    <ul class="bodytext">
+                        <li>London</li>
+                        <li>Petrolia</li>
+                        <li>Sarnia</li>
+                        <li>Strathroy</li>
+                        <li>Watford</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
+    </div>
+    <!--END OF MIDDLE-->
+
+    <div class="container mx-auto bodytext p-6 mb-4" id="form_anchor">
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email..">
+
+            <label for="city">City</label>
+            <select id="city" name="city">
+                <option value="london">Select</option>
+                <option value="london">London</option>
+                <option value="sarnia">Sarnia</option>
+                <option value="watford">Watford</option>
+            </select>
+
+            <label for="service">Type of Service Requested</label>
+            <select id="service" name="service">
+                <option value="london">Select</option>
+                <option value="decorate">Decorate</option>
+                <option value="remodel">Remodel</option>
+                <option value="renovate">Renovate</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+    <!--END OF FORM-->
+</div>
 <div id="app"></div>
 <!-- built files will be auto injected -->
 </body>

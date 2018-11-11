@@ -213,6 +213,7 @@ module.exports = {
     ],
     'serif': [
       'Constantia',
+      'Playfair Display',
       'Lucida Bright',
       'Lucidabright',
       'Lucida Serif',
