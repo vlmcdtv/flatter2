@@ -1,7 +1,7 @@
 @tailwind preflight;
 
 .heroimg {
-    background-image: linear-gradient(to right, rgb(64, 64, 64, .5), rgb(64, 64, 64, .5)), url(bg-image.jpg);
+    background-image: linear-gradient(to right, rgb(64, 64, 64, .4), rgb(64, 64, 64, .4)), url(bg-image.jpg);
     background-attachment: fixed;
     background-position: 50%;
 }
@@ -37,10 +37,8 @@ a {
 }
 
 .subhead {
-    font-family: 'Playfair Display';
-    @apply text-2xl
-    font-bold
-    tracking-wide;
+    @apply font-bold text-purple-brand-bright tracking-normal;
+    text-transform: uppercase;
 }
 
 /*form*/
